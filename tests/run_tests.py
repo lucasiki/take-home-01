@@ -8,6 +8,7 @@ from tasks.hour_task import run_hour_task
 from tasks.minute_task import run_minute_task
 from tasks.minute_task import generate_spend_values
 from time import sleep
+import json
 
 def verify_constants(object):
     
@@ -359,6 +360,9 @@ def complete_test(object):
     
     logging.info("[test] [complete_test] [start]")
             
+    with open('./test_data.json', 'r') as f:
+        object.INITIAL_DATA = json.loads(f.read())
+        
     object.initialize()
     
     object.DATETIME = datetime.strptime("01/01/2025 00:00:00", "%m/%d/%Y %H:%M:%S")
