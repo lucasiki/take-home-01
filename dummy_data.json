@@ -1,0 +1,70 @@
+{
+    "constants": {
+        "min_number_of_clicks": 0,
+        "max_number_of_clicks": 5,
+        "time_step": 1
+    },
+    "brands": {
+        "brand1": {
+            "daily_budget":  0
+            ,"monthly_budget": 0
+            ,"max_daily_budget": 10000
+            ,"max_monthly_budget": 300000
+            ,"campaign_list": [
+                {
+                    "name": "campaign1"
+                    ,"base_cost": 500
+                    ,"click_cost": 100
+                    ,"dayparting": [8,10,12,14,16,18]
+                }
+            ]
+        },
+        "brand2": {
+            "daily_budget":  0
+            ,"monthly_budget": 0
+            ,"max_daily_budget": 50000
+            ,"max_monthly_budget": 500000
+            ,"campaign_list": [
+                {
+                    "name": "campaign1"
+                    ,"base_cost": 100
+                    ,"click_cost": 200
+                    ,"dayparting": null
+                },
+                {
+                    "name": "campaign2"
+                    ,"base_cost": 500
+                    ,"click_cost": 50
+                    ,"dayparting": [8,9,15,16]
+                }
+            ]
+        },
+        "brand3": {
+            "daily_budget":  0
+            ,"monthly_budget": 0
+            ,"max_daily_budget": 100000
+            ,"max_monthly_budget": 700000
+            ,"campaign_list": [
+                {
+                    "name": "campaign1"
+                    ,"base_cost": 1000
+                    ,"click_cost": 100
+                    ,"dayparting": null
+                },
+                {
+                    "name": "campaign2"
+                    ,"base_cost": 2000
+                    ,"click_cost": 50
+                    ,"dayparting": [9,10,11,12,13,14,15,16,17,18]
+                },
+                {
+                    "name": "campaign3"
+                    ,"base_cost": 1000
+                    ,"click_cost": 250
+                    ,"dayparting": [9,10,13,18]
+                }
+            ]
+        }
+    }
+    
+}

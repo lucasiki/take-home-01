@@ -1,0 +1,24 @@
+{
+    "constants": {
+        "min_number_of_clicks": 1,
+        "max_number_of_clicks": 2,
+        "time_step": 1
+    },
+    "brands": {
+        "brand1": {
+            "daily_budget":  0
+            ,"monthly_budget": 0
+            ,"max_daily_budget": 10000
+            ,"max_monthly_budget": 200000
+            ,"campaign_list": [
+                {
+                    "name": "campaign1"
+                    ,"base_cost": 500
+                    ,"click_cost": 100
+                    ,"dayparting": [8,10,12,14,16,18]
+                }
+            ]
+        }
+    }
+    
+}
